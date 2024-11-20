@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", serif;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+
+
+}
+
+nav ul li {
+
+    text-decoration: none;
+}
+
+.first-page-title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-page-discription {
+    padding-left: 450px;
+    padding-right: 450px;
+}
