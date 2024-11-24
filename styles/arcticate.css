@@ -6,24 +6,189 @@
 
 }
 
-nav ul li a {
-    text-decoration: none;
-
+header {
+    padding: 50px 240px;
+    background-color: rgb(255, 144, 14, 0.14);
 
 }
 
-nav ul li {
+.nav-title {
+    font-size: 3rem;
+    font-weight: 500;
 
-    text-decoration: none;
 }
 
-.first-page-title {
-    justify-content: center;
+.text-light-gray {
+    color: #727272;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+
 }
 
-.first-page-discription {
-    padding-left: 450px;
-    padding-right: 450px;
+nav>ul {
+    display: flex;
+
 }
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+
+
+}
+
+.baner-container {
+
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.baner-title {
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.baner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-primarry {
+    font-size: 1.4rem;
+    width: 500;
+    height: 750;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+.conatainer {
+    display: flex;
+    align-items: center;
+    background-color: #f4e7fb;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1rem;
+}
+
+.content {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.Features {
+    color: orange;
+    font-size: 1.4rem;
+    width: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 23px;
+
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .conatainer {
+        display: flex;
+        flex-direction: column;
+
+        flex-direction: column-reverse;
+    }
+
+    .img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    header {
+        padding: 43px;
+
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .conatainer {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
