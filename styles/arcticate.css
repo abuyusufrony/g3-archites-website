@@ -135,6 +135,37 @@ main {
     margin-top: 50px;
 }
 
+.footer-container {
+    background-color: #f6bcba;
+    text-align: center;
+
+
+}
+
+.Feather-section {
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+
+
+.all-feather {
+    gap: 100px;
+
+}
+
+
+
+
+.experice {
+    color: whitesmoke;
+    background-color: orange;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
 
 
 
@@ -213,6 +244,16 @@ main {
 
 
     }
+
+    .Feather-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+}
 
 }
 
